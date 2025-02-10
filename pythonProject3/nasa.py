@@ -14,7 +14,6 @@ def honap_beolvaso(eleres):
 def top_honap_szamolo(honapok):
     szamolt_honapok = {}
     total = len(honapok)
-
     for honap in honapok:
         szamolt_honapok[honap] = szamolt_honapok.get(honap, 0) + 1
 
