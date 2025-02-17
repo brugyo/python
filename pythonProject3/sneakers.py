@@ -55,7 +55,6 @@ def main():
 
     sorok = beolvas_fajl(fajlnev)
     adatok = feldolgoz_adatok(sorok)
-
     kulcs = kivalaszt_rendezes()
     rendezett_adatok = rendezes_lista(adatok, kulcs)
 
